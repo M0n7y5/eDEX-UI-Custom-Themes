@@ -1,0 +1,45 @@
+{
+    "colors": {
+        "r": 255,
+        "g": 0,
+        "b": 0,
+        "black": "#151515",
+        "red": "#ac4142",
+        "green": "#198844",
+        "yellow": "#fba922",
+        "blue": "#6a9fb5",
+        "magenta": "#aa759f",
+        "cyan": "#3971ed",
+        "white": "#d0d0d0",
+        "lightBlack": "#505050",
+        "lightRed": "#cc342b",
+        "lightGreen": "#198844",
+        "lightYellow": "#fba922",
+        "lightBlue": "#6a9fb5",
+        "lightMagenta": "#aa759f",
+        "lightCyan": "#3971ed",
+        "lightWhite": "#f5f5f5",
+        "light_black": "#151515",
+        "grey": "#414141"
+    },
+    "cssvars": {
+        "font_main": "United Sans Medium",
+        "font_main_light": "United Sans Light"
+    },
+    "terminal": {
+        "fontFamily": "Fira Mono",
+        "cursorStyle": "underline",
+        "foreground": "#cc0022",
+        "background": "#151515",
+        "cursor": "#cc0022",
+        "cursorAccent": "#cc0022",
+        "selection": "rgba(204,0,34,0.3)"
+    },
+    "globe": {
+        "base": "#cc0022",
+        "marker": "#cc0022",
+        "pin": "#cc0022",
+        "satellite": "#cc0022"
+    },
+    "injectCSS": "section#filesystem{left: 0;width:100vw} section#filesystem>h3.title, section#filesystem>div{width:100vw} section#keyboard{display:none;}section#main_shell{position:relative;left:29vh;}section#main_shell>h3.title{left:calc(29vh + 16.5vw)!important;}section#mod_column_right{left:28.5vh!important;}section#mod_column_right>h3.title{left:29.6vh!important;}div#mod_netstat_inner{height:6.85vh;padding-top:.5vh;}div#mod_globe_innercontainer{padding-bottom:.95vh;}div#mod_conninfo canvas{height:8vh!important;} @media (aspect-ratio:64/27) {section#mod_column_left > h3.title{left:1.6vh!important}section#mod_column_left{left:1vh !important}section#mod_column_right > h3.title{left:44vh!important}section#mod_column_right{left:43vh !important}section#main_shell > h3.title{left:37vw !important;width:60% !important}section#main_shell{left:41vh;width:60%}}"
+}
